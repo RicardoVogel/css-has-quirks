@@ -1,0 +1,60 @@
+#triangle {
+    position: relative;
+    width: 0;
+    height: 0;
+    border-bottom: 100vh solid red;
+    border-left: 100vw solid transparent;
+}
+
+.text{
+    font-family: "Arial", Arial, Sans-serif;
+    text-align: left;
+    font-size: 40px;
+}
+
+@-webkit-keyframes moving {
+    0%   {top: 25vh}
+    25%  {top: 75vh;}
+    75%  {top: 43vh;}
+    100% {top: 25vh;}
+  }
+  
+  /* Standard syntax */
+  @keyframes moving {
+    0%   {top: 25vh}
+    25%  {top: 75vh;}
+    75%  {top: 43vh;}
+    100% {top: 25vh;}
+  }
+
+#has{
+    left: 50vw;
+    top: 50vh;
+    position: relative;
+    -webkit-animation: moving 5s infinite;
+    animation: moving 5s infinite;
+}
+
+#has:hover{
+    color: yellow;
+    animation-play-state: paused;
+}
+
+#quirks{
+    position: absolute;
+    text-align: left;
+    right: 100px;
+    top: 400px;
+}
+
+#quirks:hover{
+    right: 103px;
+    top: 402px;
+}
+
+#css:active{
+    position: absolute;
+    right: 103px;
+    top: 402px;
+}
+
