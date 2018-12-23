@@ -16,7 +16,7 @@
     0%   {top: 25vh}
     25%  {top: 75vh;}
     75%  {top: 43vh;}
-    100% {top: 23vh;}
+    100% {top: 29vh;}
   }
   
   /* Standard syntax */
@@ -24,7 +24,7 @@
     0%   {top: 25vh}
     25%  {top: 75vh;}
     75%  {top: 43vh;}
-    100% {top: 23vh;}
+    100% {top: 29vh;}
   }
 
 #has{
